@@ -1,0 +1,41 @@
+.modal-meal-item {
+  display: flex;
+  align-items: flex-end;
+}
+.modal-meal-item-price {
+  color: chocolate;
+  margin-right: 10px;
+}
+.modal-meal-item-quantity {
+  padding: 5px;
+  border: 1px solid rgba(68, 68, 68, 0.322);
+  border-radius: 5px;
+}
+.modal-meal-item-actions {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-grow: 2;
+}
+
+.modal-meal-item-actions .button {
+  display: block;
+  border-radius: 5px;
+  height: 100%;
+  padding: 5px 10px;
+  color: chocolate;
+  margin: 5px;
+  border: 1px solid chocolate;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+.modal-meal-item-actions .button:hover {
+  background-color: #ccc;
+}
+.hr {
+  width: 80%;
+  margin: 30px auto;
+}

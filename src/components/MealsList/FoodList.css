@@ -1,0 +1,21 @@
+.food-list-ul {
+  width: 70rem;
+  margin: auto;
+  max-width: 80%;
+  animation: meals-appear 1s ease-out forwards;
+}
+
+.food-list-ul ul {
+  list-style-type: none;
+}
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
